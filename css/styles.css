@@ -1,0 +1,193 @@
+/* =========================
+   Variables de color
+========================= */
+:root {
+    --rojo-club: #8d0606;
+    --rojo-club-dark: #6f0404;
+    --blanco: #ffffff;
+    --gris-claro: #f4f4f4;
+    --gris-medio: #333333;
+    --azul-acento: #0a2a66;
+}
+
+/* =========================
+   Reset básico
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   Base
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--gris-claro);
+    color: var(--gris-medio);
+    line-height: 1.6;
+}
+
+/* =========================
+   Navbar
+========================= */
+nav.navbar {
+    background-color: #7a0b0b; 
+}
+
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+
+.navbar-toggler {
+    border-color: var(--blanco);
+}
+
+/* =========================
+   Hero
+========================= */
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center / cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+/* =========================
+   Próximo Partido
+========================= */
+.proximo-partido .card {
+    border: none;
+}
+
+.proximo-partido .card-header {
+    background-color: #8d0606;
+}
+
+.proximo-partido h5 {
+    color: #8d0606;
+}
+
+
+/* =========================
+   Noticias
+========================= */
+.noticias-principales h2 {
+    color: var(--rojo-club);
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--rojo-club-dark);
+}
+
+.btn-primary {
+    background-color: var(--rojo-club);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--rojo-club-dark);
+}
+
+/* =========================
+   Fixture
+========================= */
+.fixtures {
+    background-color: var(--blanco);
+    padding: 40px 0;
+}
+
+.fixtures h2 {
+    color: var(--azul-acento);
+    font-weight: bold;
+}
+
+.fixture-img {
+    max-width: 500px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.fixture-img:hover {
+    opacity: 1;
+}
+
+/* =========================
+   Sponsors
+========================= */
+.sponsors img {
+    max-width: 100%;
+    background-color: var(--blanco);
+}
+
+/* ================= 
+    Redes Sociales
+========================= */
+
+.redes-sociales {
+    background-color: #ffffff;
+}
+
+.redes-sociales h2 {
+    color: #8d0606;
+    font-weight: bold;
+}
+
+.red-social img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.red-social img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+/* =========================
+   Footer
+========================= */
+footer {
+    background-color: var(--rojo-club);
+    color: var(--blanco);
+    font-size: 0.9rem;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+    .hero {
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
