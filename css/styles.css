@@ -1,9 +1,83 @@
 
+/* UTILITIES */
+/*VARIABLES PRINCIPALES*/
 /* BASE - RESET */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/*  LAYOUT  */
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .footer-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.footer p {
+  font-size: 0.9rem;
+  color: #f4f4f4;
+}
+.footer .footer-redes a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+}
+.footer .footer-redes a:hover {
+  text-decoration: underline;
+}
+.footer .footer-divider {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 1.5rem 0;
+}
+.footer small {
+  color: #ffffff;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: #8d0606;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  border: none;
+}
+
+.dropdown-item {
+  color: #1a1a1a;
+}
+.dropdown-item:hover {
+  background-color: #f4f4f4;
+  color: #8d0606;
+}
+
+.logo-nav {
+  width: 60px;
+  height: 60px;
+}
+
+/* COMPONENTES */
+/**/
 
 /*# sourceMappingURL=styles.css.map */

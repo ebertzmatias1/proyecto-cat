@@ -1,0 +1,40 @@
+/*Navbar*/
+.navbar {
+  background-color: $color-primary;
+}
+
+.navbar-brand {
+  font-weight: bold;
+
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.nav-link {
+  color: $color-white;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}
+
+.dropdown-menu {
+  background-color: $color-white;
+  border: none;
+}
+
+.dropdown-item {
+  color: $color-dark;
+
+  &:hover {
+    background-color: $color-light;
+    color: $color-primary;
+  }
+}
+
+.logo-nav {
+  width: 60px;
+  height: 60px;
+}

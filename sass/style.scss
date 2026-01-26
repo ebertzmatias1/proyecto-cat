@@ -1,7 +1,21 @@
 
 /*# sourceMappingURL=style.scss.map */
 
-
+/* UTILITIES */
+@import "../sass/utilities/mixin";
+@import "../sass/utilities/variables";
 
 /* BASE - RESET */
 @import "../sass/base/reset";
+
+/*  LAYOUT  */
+@import "../sass/layout/footer";
+@import "../sass/layout/navbar";
+@import "../sass/layout/sections";
+
+/* COMPONENTES */
+@import "../sass/components/buttons" ;
+@import "../sass/components/cards";
+@import "../sass/components/forms";
+
+/**/
