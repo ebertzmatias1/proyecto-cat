@@ -1,0 +1,19 @@
+//mixin para mobile//
+
+@mixin respond ($breackpoint) {
+    @if $breackpoint == movile {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }            
+}
+
+//mixin para los botones//
+
+@mixin button-base {
+    display: inline-block;
+    border-radius: $border-radius;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}

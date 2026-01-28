@@ -9,6 +9,14 @@
   &:hover {
     color: $color-white;
   }
+  @include respond (mobile) {
+    padding: 1rem;
+
+    .navbar-brand {
+      font-size: 1rem;
+    }
+
+  }
 }
 
 .nav-link {
@@ -32,6 +40,11 @@
     background-color: $color-light;
     color: $color-primary;
   }
+}
+
+.logo-nav {
+  width: 60px;
+  height: 60px;
 }
 
 .logo-nav {

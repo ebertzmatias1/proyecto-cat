@@ -1,0 +1,28 @@
+.form-control {
+  border-radius: $border-radius;
+  border: 1px solid $color-dark;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+
+  &:focus {
+    border-color: $color-primary;
+    box-shadow: 0 0 0 0.15rem rgba(141, 6, 6, 0.25);
+  }
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: $color-text;
+}
+
+/*contenedor del formulario*/
+.form-wrapper {
+  background-color: $color-white;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.form-group {
+  margin-bottom: 1.2rem;
+}

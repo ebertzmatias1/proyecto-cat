@@ -1,0 +1,43 @@
+/*cards para las noticias*/
+.news,
+.noticias-principales {
+    margin:  3rem 0;
+    .card {
+        height: 100%;
+        border: none;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0px 8px ($color-dark);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px ($color-dark);
+    }
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $color-primary;
+  }
+
+.card-text {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+.card .btn {
+    align-self: flex-start;
+} 
