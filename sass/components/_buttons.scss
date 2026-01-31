@@ -6,14 +6,20 @@
 /*boton principal*/
 
 .btn-primary {
-    background-color: $color-primary;
-    color: $color-white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: $color-primary;
+  color: $color-white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
 
-    &:hover {
-        background-color: $color-light;
-        color: $color-white;
-    }
+  &:hover {
+    background-color: darken ($color-primary, 10%);
+  }
 }
+
 
 /*boton secundario*/
 .btn-outline {
