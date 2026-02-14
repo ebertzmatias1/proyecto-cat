@@ -8,12 +8,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /*  LAYOUT  */
 /* Footer */
 .footer {
   background-color: #1a1a1a;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat" sans-serif, oswald, sans-serif;
   padding-top: 3rem;
 }
 .footer .footer-title {
@@ -27,11 +37,12 @@
 .footer .footer-redes a {
   display: block;
   color: #ffffff;
-  text-decoration: none;
-  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
 }
 .footer .footer-redes a:hover {
-  text-decoration: underline;
+  color: #8d0606;
 }
 .footer .footer-divider {
   border-color: rgba(255, 255, 255, 0.2);
@@ -44,10 +55,13 @@
 /*Navbar*/
 .navbar {
   background-color: #8d0606;
+  font-family: "Montserrat";
 }
 
 .navbar-brand {
-  font-weight: bold;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: oswald, sans-serif;
 }
 .navbar-brand:hover {
   color: #ffffff;
@@ -55,10 +69,12 @@
 
 .nav-link {
   color: #ffffff;
+  font-family: oswald, sans-serif;
+  font-size: 1rem;
 }
 .nav-link:hover {
   color: #ffffff;
-  text-decoration: underline;
+  text-overflow: clip;
 }
 
 .dropdown-menu {
@@ -79,9 +95,20 @@
   height: 60px;
 }
 
-.logo-nav {
-  width: 60px;
-  height: 60px;
+/* body general */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 /*banner del hero*/
@@ -119,8 +146,19 @@
   width: 600px;
   height: auto;
   object-fit: cover;
-  padding: 1rem;
-  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noticias {
+  padding: 3rem 1rem;
+  background-color: #8d0606;
+}
+.noticias-title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
 }
 
 /* COMPONENTES */
@@ -187,7 +225,7 @@
 }
 .noticia-card img {
   width: 100%;
-  height: 180px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -198,7 +236,7 @@
   margin-bottom: 0.5rem;
 }
 .noticia-content p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -230,7 +268,5 @@ label {
 .form-group {
   margin-bottom: 1.2rem;
 }
-
-/**/
 
 /*# sourceMappingURL=styles.css.map */

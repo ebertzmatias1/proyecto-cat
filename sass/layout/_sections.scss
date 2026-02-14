@@ -1,3 +1,21 @@
+/* body general */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
 /*banner del hero*/
 
 .banner {
@@ -36,9 +54,22 @@
   align-content: center;
   .images-fixture {
   width: 600px;
-  height:auto;
+  height: auto;
   object-fit: cover;
-  padding: 1rem;
-  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+}
+.noticias {
+  padding: 3rem 1rem;
+  background-color: $color-primary;
+
+  &-title {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 2rem;
+    
+  }
 }

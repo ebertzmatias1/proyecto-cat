@@ -19,11 +19,12 @@
     a {
       display: block;
       color: $color-white;
-      text-decoration: none;
-      margin-bottom: 0.3rem;
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      transition: color 0.3s ease;
 
       &:hover {
-        text-decoration: underline;
+        color: $color-primary;
       }
     }
   }
